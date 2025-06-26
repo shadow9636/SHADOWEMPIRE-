@@ -40,6 +40,22 @@ img{
    border: 0vw;
    outline: none;
 }
+               /* shadow logo */
+   .shadow{
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+   justify-content: center;
+   }
+   #shadow{
+    height: 12vh;
+    width:45vw;
+    background-color: black;
+    
+    
+   }
+            
 
 /* main-img */
 .main-img{
