@@ -7,13 +7,13 @@
                                            /* header wepsite */
 .napbar{ 
     height: 80px;
-   width: 1080px;
+   
     background-color: rgb(216, 121, 90); 
       
 }
 .information{
     height: 70px;
-    width: 1080px
+   
     position:absolute;
     top: 5px;
     left: 6px; 
@@ -44,7 +44,7 @@ img{
 /* main-img */
 .main-img{
     height: 500px;
-    width: 1080px;
+    
     background-color: rgb(245, 255, 198);
     display: flex;
     flex-direction: row;
@@ -112,21 +112,21 @@ img{
                                  /* content */
 
 .p{
-    width: 1080px;
+   
     color: rgb(193, 140, 93);
-    text-align: center;
+    text-align: center
 }
        
 /* futter */
 .footer-content{
     height: 150px;
-    width: 1080px;
+   
     background-color: rgb(4, 42, 43);
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content:space-around;  
-    position: relative;
+    position:static;
     bottom: 0px;
    
     
