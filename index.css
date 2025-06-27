@@ -5,9 +5,15 @@
 }
 /* https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg */
                                            /* header wepsite */
+
+    body{
+        overflow-x: hidden;
+    overflow-y:auto ;
+    scrollbar-width: none;
+    }                                       
 .napbar{ 
     height: 8vw;
-   width: 100%;
+    width: 100%;
     background-color: rgb(216, 121, 90); 
       
 }
@@ -46,10 +52,10 @@ img{
     width: 100%;
     background-color: black;
     display: flex;
-   justify-content: center;
-   position: sticky;
-   top: 0vh;
-   z-index: 1000;
+    justify-content: center;
+    position: sticky;
+    top: 0vh;
+    z-index: 1000;
 
   
    }
@@ -120,10 +126,10 @@ img{
 }
 .img3{
     height:30vw;
-     width: 25vw;
+    width: 25vw;
     position: relative;
     left: 30vw;
-   top: 4vw;
+    top: 4vw;
     
     background-image: url(https://www.legitreviews.com/wp-content/uploads/2014/09/Call-Of-Duty-Advanced-Warfare2.jpg);
     background-size: cover;
@@ -139,6 +145,35 @@ img{
     color: rgb(193, 140, 93);
     text-align: center
 }
+                      /* shop now */
+
+.shop{
+    height:30vh;
+    background-color: aliceblue;
+    display: flex;
+    overflow-x: auto;
+    overflow-y:hidden ;
+    scrollbar-width: none;
+
+    white-space: nowrap;
+    border: 2vw;
+  
+    
+}  
+.item{
+    display: flex;
+    height:25vh;
+   
+   
+}          
+#img{
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vw;
+
+}          
        
 /* futter */
 .footer-content{
@@ -146,6 +181,7 @@ img{
     width: 100%;
     background-color: rgb(4, 42, 43);
     display: flex;
+    top:45vh;
     flex-direction:row;
     align-items: center;
     justify-content:space-around;  
@@ -156,6 +192,7 @@ img{
     border-left: 0vw;
     border-right :0vw ;
     box-shadow: 0vw 9vw 0vw 29vw rgb(4, 42, 43);
+    
     
    
     
@@ -170,8 +207,8 @@ img{
     align-items: center;
     justify-content:space-around;
     align-content: center;
-   position: absolute;
-   bottom: 2.7vh;
+    position: absolute;
+    bottom: 2.7vh;
 }
 
 #para{
@@ -188,10 +225,10 @@ a{
     font-family: Arial,sans-serif;
     justify-content: center;
    
-   display: flex;
+    display: flex;
     align-items: center;
     height: 100vh;
-   background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
+    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
 .login-page{
     background-color: white;
     text-align: center;
@@ -237,10 +274,10 @@ a{
     font-family: Arial,sans-serif;
     justify-content: center;
    
-   display: flex;
+    display: flex;
     align-items: center;
     height: 100vh;
-   background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
+    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
 .regester{
     background-color: white;
     text-align: center;
@@ -284,7 +321,7 @@ button{
     
 }
 .a{
-     color: aliceblue;
+    color: aliceblue;
     text-decoration: none;
 }
    
