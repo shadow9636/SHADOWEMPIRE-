@@ -7,6 +7,7 @@
                                            /* header wepsite */
 .bo{display:flex;
     flex-direction: column;
+   }
 .napbar{ 
     height: 8vw;
    width: 100%;
