@@ -144,8 +144,8 @@ img{
     flex-direction:row;
     align-items: center;
     justify-content:space-around;  
-   position:absolute;
-    bottom: 0vh;
+   position:static;
+    
    
     
    
