@@ -5,13 +5,6 @@
 }
 /* https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg */
                                            /* header wepsite */
-
- body{
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-   
- }                                          
 .napbar{ 
     height: 8vw;
    width: 100%;
@@ -49,15 +42,20 @@ img{
 }
                /* shadow logo */
    .shadow{
-    height: 11vh;
+    height: 8vh;
     width: 100%;
     background-color: black;
     display: flex;
    justify-content: center;
+   position: sticky;
+   top: 0vh;
+   z-index: 1000;
+
+  
    }
    #shadow{
-    height: 11vh;
-    width:45vw;
+    height:8vh;
+    width:49vw;
     background-color: black;
     
     
@@ -66,7 +64,7 @@ img{
 
 /* main-img */
 .main-img{
-    height: 39.5vw;
+    height: 39vw;
     width: 100%;
     background-color: rgb(245, 255, 198);
     display: flex;
@@ -112,7 +110,7 @@ img{
     width: 30vw;
     position:relative;
     left:-15.5vw;
-    top: 2vw;
+    top: 1.2vh;
    
     background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);
     background-size: cover;
@@ -151,15 +149,15 @@ img{
     flex-direction:row;
     align-items: center;
     justify-content:space-around;  
-    position:relative;
-    top: 10vh;
-    border: solid  2vh;
-   border-color: rgb(4,42,43);
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    position: relative;
+    border: solid 2vh;
+    border-color: rgb(4,42,43);
+    border-bottom: 0px;
+    border-left: 0vw;
+    border-right :0vw ;
+    box-shadow: 0vw 9vw 0vw 29vw rgb(4, 42, 43);
     
- 
+   
     
    
 }
@@ -172,6 +170,8 @@ img{
     align-items: center;
     justify-content:space-around;
     align-content: center;
+   position: absolute;
+   bottom: 2.7vh;
 }
 
 #para{
