@@ -5,6 +5,8 @@
 }
 /* https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg */
                                            /* header wepsite */
+.bo{display:flex;
+    flex-direction: column;
 .napbar{ 
     height: 8vw;
    width: 100%;
