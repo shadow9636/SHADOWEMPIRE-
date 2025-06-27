@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
     color: rgb(17, 1, 1);
-}
+    
+    }
 /* https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg */
                                            /* header wepsite */
 
@@ -145,70 +146,84 @@ img{
     color: rgb(193, 140, 93);
     text-align: center
 }
-                      /* shop now */
 
-.shop{
-    height:30vh;
-    background-color: aliceblue;
+                  /* bay now */
+
+.bay{
+    height:9vh;
+    background-color: blanchedalmond;
     display: flex;
-    overflow-x: auto;
-    overflow-y:hidden ;
-    scrollbar-width: none;
-
-    white-space: nowrap;
-    border: 2vw;
-  
+    justify-content:center;
+   
+   
+}
+.con{
+    color: #d8795A;
+     position: relative;
+    top: 3vh;
     
-}  
-.item{
-    display: flex;
-    height:25vh;
-   
-   
-}          
-#img{
-    height: 25vh;
-    width: 25vw;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2vw;
+    
+}
 
-}          
+                      /* shop now */
+.shop{
+    height: 22vh;
+    display: flex;
+    background-color:aliceblue; 
+    position: relative;
+    bottom: 0.3vw;
+    top: 0.3vw;
+    overflow-y: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+   scrollbar-width: none;
+   
+}
+#img{
+   
+    height: 22vh;
+    width: 200px;
+    display: flex;
+   margin-left: 6vw;
+}
+.arrow{
+    display: flex;
+    position:absolute;
+   width: 30px;
+   height: 6vh;
+   top:8vh;
+   
+
+}
+
+ 
+
+          
        
 /* futter */
 .footer-content{
-    height:30vh;
+    height:20vh;
     width: 100%;
     background-color: rgb(4, 42, 43);
     display: flex;
-    top:45vh;
+    top:1vh;
     flex-direction:row;
     align-items: center;
     justify-content:space-around;  
     position: relative;
-    border: solid 2vh;
-    border-color: rgb(4,42,43);
-    border-bottom: 0px;
-    border-left: 0vw;
-    border-right :0vw ;
-    box-shadow: 0vw 9vw 0vw 29vw rgb(4, 42, 43);
-    
-    
-   
-    
-   
-}
+   }
 .fastcolan{
-    height:33vh;
-    width: 37vw;
+    height:20vh;
+    width: 20vw;
     background-color:transparent;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content:space-around;
     align-content: center;
-    position: absolute;
-    bottom: 2.7vh;
+    text-align: center;
+   
+   
 }
 
 #para{
