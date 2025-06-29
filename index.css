@@ -1,358 +1,202 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    color: rgb(17, 1, 1);
-    
-    }
-/* https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg */
-                                           /* header wepsite */
-
-    body{
-        overflow-x: hidden;
+    padding:0px;
+    margin:0px;
+}
+.playnow{
+    width: 100%;
+    background-color:rgb(158, 126, 66) ;
+    overflow-x: hidden;
     overflow-y:auto ;
     scrollbar-width: none;
-    }                                       
-.napbar{ 
-    height: 8vw;
-    width: 100%;
-    background-color: rgb(216, 121, 90); 
-      
 }
-.information{
-    height: 7vw;
+header{
+    background-color: rgb(255, 174, 0);
+    height:auto;
     width: 100%;
-    position:absolute;
-    top: 0.8vw;
-    left: 1.3vw; 
     display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content:space-around;       
- }   
-/* #login{
-    height: 70vw;
-    width:100%;
-    background-color:#d8795A;
-    border-radius: 50px;
-    border: 0px;
-    outline: none;
-    
-} */
-img{
-    height:7vw;
-    width: 10vw;
-}
-.login-button{
-   background-color: #d8795A;
-   border: 0vw;
-   outline: none;
-}
-               /* shadow logo */
-   .shadow{
-    height: 8vh;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
     position: sticky;
-    top: 0vh;
-    z-index: 1000;
-
-  
-   }
-   #shadow{
-    height:8vh;
-    width:49vw;
-    background-color: black;
+    top: 0px;
+    z-index: 1000;   
+}
+.shadow{
+    width: 50vw;
+    display: flex;
+    z-index: 1001;
+    position: sticky;
+    right: 30vw;
     
+    top: 0px;
     
-   }
-            
-
-/* main-img */
-.main-img{
-    height: 39vw;
+}
+.shadowempiar{
+    width: 35vw;
+    height:10vh ;
+   
+    
+}
+.napbar{
     width: 100%;
-    background-color: rgb(245, 255, 198);
     display: flex;
     flex-direction: row;
-    
-   
-}
-.img1:hover{
-    height:30vw ;
-    width: 25vw;
-    z-index: 3;
-    transform:translateX(-10vw) ;
-}
-.img3:hover{
-    height:30vw ;
-    width: 25vw;
-    z-index: 3;
-    transform:translateX(14vw) ;
-}
-.img2:hover{
-    height: 36vw;
-    width: 30vw;
-    z-index: 3;
-    transform:translateX(-0.5vw) ;
-    
-    
-    
-}
-.img1{
- height:30vw;
-    width:25vw;
+    height: 10vh;
+    margin-right:2vh;
+    justify-content:space-between;
     position: relative;
-    left: 15vw;
-    top: 4vw;
-    background-image: url(https://newsd.in/wp-content/uploads/2020/09/Garena-Free-Fire-1.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius:1vw ;
-    box-shadow: 0.3vw 0.3vw 0.9vw 0.3vw rgba(0, 38, 66,2);
-}
-.img2{
- height: 35vw;
-    width: 30vw;
-    position:relative;
-    left:-15.5vw;
-    top: 1.2vh;
-   
-    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);
-    background-size: cover;
-    background-position: center;
+    top: 4vh;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px 2px rgba(0, 38, 66,2);
+   
 }
-.img3{
-    height:30vw;
-    width: 25vw;
+
+                       /* maincontaner */
+
+ .maincontaner{
+    width: 100%; 
+    height: 200vh;  
+    display: flex;
+    flex-direction: column;
     position: relative;
-    left: 30vw;
-    top: 4vw;
-    
-    background-image: url(https://www.legitreviews.com/wp-content/uploads/2014/09/Call-Of-Duty-Advanced-Warfare2.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius:1vw ;
-    box-shadow: 0.3vw 0.3vw 0.9vw 0.3vw rgba(0, 38, 66,2);
-}
-
-                                 /* content */
-
-.p{
-    width:100%;
-    color: rgb(193, 140, 93);
-    text-align: center
-}
-
-                  /* bay now */
-
-.bay{
-    height:9vh;
+    background-color:lavenderblush;
+    align-items:center ;
+       
+}  
+#logo{
+    height: 25vh;
+    width: 50vw;
     background-color: blanchedalmond;
+    border-radius: 20px;
     display: flex;
-    justify-content:center;
-   
-   
-}
-.con{
-    color: #d8795A;
-     position: relative;
-    top: 3vh;
-    
-    
-}
-
-                      /* shop now */
-.shop{
-    height: 22vh;
-    display: flex;
-    background-color:aliceblue; 
     position: relative;
-    bottom: 0.3vw;
-    top: 0.3vw;
-    overflow-y: none;
-    overflow-x: auto;
-    overflow-y: hidden;
-   scrollbar-width: none;
+    top: 2vh;
    
-}
-#img{
-   
-    height: 22vh;
-    width: 200px;
+}          
+.contaner1{
+    height: 20vh;
+    background-color:transparent;
+    border-radius: 20px;
     display: flex;
-   margin-left: 6vw;
+    position: relative;
+    top:6vh;
+    width: 95vw;
+   
+}      
+.boder{
+    border: 1px solid black;
+    height:20vh;
+    width: 90vw;
+    box-shadow: inset 0vh 2vh 30vh black;
+    border: hidden;
+    border-radius: 20px;
+    margin-left: 5vw;
 }
-.arrow{
+.topcontener{
+    border: 0.5px solid black;
+    height: 3vh;
+    width: 90vw;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: inset 40vw 0vh 6vh rgba(0,0,0,0.7);
+    border: hidden;
+}
+ #bgmilogo{
+    height: 13vh;
+    width: 30vw;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top: 1.5vh;
+    right:5vw ;
+    z-index: 100;
+ }
+ #button{
     display: flex;
     position:absolute;
-   width: 30px;
-   height: 6vh;
-   top:8vh;
-   
-
-}
-
- 
-
-          
-       
-/* futter */
-.footer-content{
-    height:20vh;
-    width: 100%;
-    background-color: rgb(4, 42, 43);
+    height: 4vh;
+    width: 26vw;   
+    left: 67vw;
+    top: 14vh;
+    border-radius: 20px 65px 20px 65px;
+    justify-content: center;
+    box-shadow: inset 10vh 0vw 35px rgba(131, 25, 231, 0.5) ;
+    background-color: rgb(236, 233, 238);
+    border: hidden;
+    cursor: pointer;
+      
+ }
+ .join{
+    font-size: 2.5vh;
+    color: black;   
+ }
+ a{
+    text-decoration: none;
+ }
+ .info{
+    height: 5vh;
+    width: 65vw;
     display: flex;
-    top:1vh;
-    flex-direction:row;
-    align-items: center;
-    justify-content:space-around;  
     position: relative;
-   }
-.fastcolan{
-    height:20vh;
-    width: 20vw;
+    bottom: 13vh;
+    left: 25vw;
+    justify-content: space-around;
+    font-size: 2.5vh;
+    
+ }
+ .infoline{
+    height: 0vh;
+    width: 60vw;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    bottom: 15vh;
+    left: 27vw;
+    color: brown;
+   
+ }
+ .infonumbar{
+    height: 5vh;
+    width: 65vw;
+    display: flex;
+    position: relative;
+    bottom: 14vh;;
+    left: 23.5vw;
+    justify-content: space-around;
+    font-size: 2.5vh;
+
+ }
+.contaner2{
+    height: 20vh;
     background-color:transparent;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:space-around;
-    align-content: center;
-    text-align: center;
-   
-   
-}
-
-#para{
-    color: yellowgreen;
-}
-a{
-    color: aliceblue;
-    text-decoration: none;
-}
-                              /* login.html */
-
-                            .body{
-    background: lightgray;
-    font-family: Arial,sans-serif;
-    justify-content: center;
-   
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
-.login-page{
-    background-color: white;
-    text-align: center;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px;
-    width: 180px;
-    background-image: url(https://uploads-ssl.webflow.com/6369b19afb26923ac231f41b/63e7c0647072ce57f5feb806_pexels-freestocksorg-744462-1536x1024.webp);
-}
-.login-page h1{
-    text-align: center;
-    margin-bottom: 25px;
-}
-.login-page input[type="text"],
-.login-page input[type="password"]{
-    width: 100px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid blue;
-    border-radius: 25px;
-}
-.login-page input[type ="submit"]{
-    width: 100px;
-    background-color: rgb(78, 39, 170);
-    color: aliceblue;
-    padding: 5px;
     border-radius: 20px;
-    cursor: pointer;
-}
-.login-page input[type ="submit"] :hover{
-    background-color: rgb(207, 16, 73);
-    
-}
-.login-page p{
-    text-align: center;
-    font-size: 12px;
-}
-
-                             /* regester.html */
-
-                             .body{
-    background: lightgray;
-    font-family: Arial,sans-serif;
-    justify-content: center;
-   
     display: flex;
-    align-items: center;
-    height: 100vh;
-    background-image: url(https://staticg.sportskeeda.com/editor/2023/07/8f655-16890919503415-1920.jpg);}
-.regester{
-    background-color: white;
-    text-align: center;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px;
-    width: 180px;
-    background-image: url(https://uploads-ssl.webflow.com/6369b19afb26923ac231f41b/63e7c0647072ce57f5feb806_pexels-freestocksorg-744462-1536x1024.webp);
-}
-.regester h1{
-    text-align: center;
-    margin-bottom: 25px;
-}
-.regester input[type="text"],
-.regester input[type="password"]{
-    width: 100px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid blue;
-    border-radius: 25px;
-}
-.regester input[type ="submit"]{
-    width: 100px;
-    background-color: rgb(78, 39, 170);
-    color: aliceblue;
-    padding: 5px;
+    position: relative;
+    top:9vh;
+    width: 95vw;
+}      
+.contaner3{
+   height: 20vh;
+    background-color:transparent;
     border-radius: 20px;
-    cursor: pointer;
-}
-.regester input[type ="submit"] :hover{
-    background-color: rgb(207, 16, 73);
-    
-}
-button{
-     width: 100px;
-    background-color: rgb(78, 39, 170);
-    color: aliceblue;
-    padding: 5px;
-    border-radius: 20px;
-    cursor: pointer;
-    
-}
-.a{
-    color: aliceblue;
-    text-decoration: none;
-}
-   
-.regester p{
-    text-align: center;
-    font-size: 12px;
-}
-.home{
-    
-    position: absolute;
-    top: 40px;
-    left: 40px;
-}
-#home{
-    height: 15px;
-    width: 15px;
-}
+    display: flex;
+    position: relative;
+    top:12vh;
+    width: 95vw;
 
-                            
+}      
+.contaner4{
+    height: 20vh;
+    background-color:transparent;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top:15vh;
+    width: 95vw;
+
+}      
+.contaner5{
+    height: 20vh;
+    background-color:transparent;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    top:18vh;
+    width: 95vw;
+}      
+      
